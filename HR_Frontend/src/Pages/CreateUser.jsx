@@ -31,7 +31,7 @@ const CreateUser = () => {
 
   const checkBackendStatus = async () => {
     try {
-      const response = await fetch("myuandwebackend.vercel.app/api/users", {
+      const response = await fetch("https://myuandwebackend.vercel.app/api/users", {
         method: "HEAD",
       });
       setApiStatus({ checking: false, online: response.ok });
