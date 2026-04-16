@@ -12,7 +12,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
   "https://myuandwe.vercel.app",
-   "https://myuandwe3.vercel.app"
+   "https://myuandwe3.vercel.app",
 ];
 
 app.use((req, res, next) => {
