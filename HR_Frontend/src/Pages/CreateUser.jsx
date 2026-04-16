@@ -63,7 +63,7 @@ const CreateUser = () => {
   const fetchUsers = async () => {
     try {
       console.log("📡 Fetching users from API...");
-      const response = await fetch("myuandwebackend.vercel.app/api/users");
+      const response = await fetch("https://myuandwebackend.vercel.app/api/users");
       console.log("📡 Response status:", response.status);
       
       if (!response.ok) {
