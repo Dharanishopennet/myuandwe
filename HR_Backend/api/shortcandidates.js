@@ -140,7 +140,7 @@ router.use((req, res, next) => {
 const allowedOrigins = [
   "https://myuandwe.vercel.app",
   "https://recruitment-hiring-portal-ibsf.vercel.app",
-  "http://localhost:5173",   // ✅ ADD THIS COMMA
+  "http://localhost:5173",
   "https://myuandwe3.vercel.app"
 ];
 
