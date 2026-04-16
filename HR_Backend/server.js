@@ -11,7 +11,8 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://myuandwe.vercel.app"
+  "https://myuandwe.vercel.app",
+   "https://myuandwebackend.vercel.app"
 ];
 
 app.use((req, res, next) => {
@@ -67,7 +68,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: "https://myuandwe-bg.vercel.app"
+        url: "https://myuandwebackend.vercel.app"
       }
     ]
   },
