@@ -141,6 +141,7 @@ router.use((req, res, next) => {
     "https://myuandwe.vercel.app",
     "https://recruitment-hiring-portal-ibsf.vercel.app",
     "http://localhost:5173"
+  "https://myuandwe3.vercel.app"
   ];
 
   const origin = req.headers.origin;
