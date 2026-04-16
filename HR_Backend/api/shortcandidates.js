@@ -137,12 +137,12 @@ const getCandidatesInZone = async (clientName) => {
 };
 
 router.use((req, res, next) => {
-  const allowedOrigins = [
-    "https://myuandwe.vercel.app",
-    "https://recruitment-hiring-portal-ibsf.vercel.app",
-    "http://localhost:5173"
+const allowedOrigins = [
+  "https://myuandwe.vercel.app",
+  "https://recruitment-hiring-portal-ibsf.vercel.app",
+  "http://localhost:5173",   // ✅ ADD THIS COMMA
   "https://myuandwe3.vercel.app"
-  ];
+];
 
   const origin = req.headers.origin;
 
